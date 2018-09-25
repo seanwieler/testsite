@@ -864,9 +864,11 @@ textarea {
 # Header
 --------------------------------------------------------------*/
 header .site-branding .site-title {
+  text-align: center;
+}
+header .site-branding .site-title a {
   text-decoration: none;
   color: #d3d;
-  text-align: center;
 }
 header .site-branding .site-description {
   color: #d3d;
