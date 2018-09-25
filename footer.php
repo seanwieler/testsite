@@ -14,6 +14,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer">
+		<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
+			<div id="footer-widgets-area" class="footer-widgets-area widget-area" role="complementary">
+				<?php dynamic_sidebar( 'footer-1' ); ?>
+			</div><!-- #footer-widget-area -->
+		<?php endif; ?>
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'test-site' ) ); ?>">
 				<?php
