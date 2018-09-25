@@ -8,14 +8,13 @@ header {
             text-align: center;
             a {
                 text-decoration: none;
-                color: @brand-color-1;
+                .site-heading-common();
             }
         }
         .site-description {
             //TODO
-            color: @brand-color-1;
+            .site-heading-common();
             font-size: 18px;
-            font-weight: bold;
             text-align: center;
             @media @not-desktop {
                 display: none;
